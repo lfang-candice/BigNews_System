@@ -9,11 +9,4 @@ module.exports = function(app) {
     })
   );
 
-//   app.use(
-//     '/ajax2',
-//     createProxyMiddleware({
-//       target: 'https://m2.maoyan.com',
-//       changeOrigin: true,
-//     })
-//   );
 };
