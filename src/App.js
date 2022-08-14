@@ -1,14 +1,8 @@
-import Child from './Child'
-import './App.css'
+import IndexRouter from './router/IndexRouter'
+
 function App(){
   return <div>
-    app
-      <ul>
-        <li>11111</li>
-        <li>22222</li>
-      </ul>
-    <Child/>
+     <IndexRouter></IndexRouter>
   </div>
 }
-
 export default App
